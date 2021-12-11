@@ -1,0 +1,32 @@
+{
+  "name": "crazy-news",
+  "private": true,
+  "description": "Crazy news generator",
+  "version": "1.0.0",
+  "author": "darbyjack",
+  "dependencies": {
+    "gatsby": "next",
+    "gatsby-plugin-react-helmet": "^5.3.0",
+    "gatsby-source-filesystem": "next",
+    "gatsby-transformer-remark": "next",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "prettier": "2.1.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
+  }
+}
